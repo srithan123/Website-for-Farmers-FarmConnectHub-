@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <title>FarmConnectHub.com</title>
+    <link rel="icon" type="image/png" href="images/logoes.jpg">
+    <style>
+      #loginButton{
+        height:40px;
+        width:90px;
+        background-color: green;
+        color:white;
+        font-size:15px;
+      }
+    </style>
+</head>
+<body>
+    <div class="main-bar">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <img class="logo" src="images/logo.jpg" alt="logo" height="150px" width="150px">
+        <a href="#" target="_self" class="login" id="login"><button id="loginButton" title="please login for utilize services" style="cursor:pointer"><i class="fa fa-fw fa-user"></i>&nbsp;Login</button></a>
+    <!--code begins for login button-->
+        <div id="main-block" class="modal">
+        <main id="main-holder">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1 id="login-header"><i class="fa fa-fw fa-user"></i>Login</h1>
+        
+  
+        <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+        <div>
+        <form id="login-form">
+          <h4 id="quest" class="quest">Enter username:</h4>
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required>
+          <h4 id="quest" class="quest">Enter password:</h4>
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" requried><br><br>
+          <input type="submit" value="Login" id="login-form-submit"><br>
+          don't have an account?<a herf="register.html" style="float:none; text-decoration:underline; color:blue; cursor: pointer;"  class="registerbutton">Register</a>
+        </form>
+        </div>
+      </main>
+    </div>
+        <!--end of the button-->
+        <a href="https://economictimes.indiatimes.com/topic/farmers" target="_self">NEWS</a>
+        <a href="#aboutus">ABOUT US</a>
+        <a class="active" href=""><i class="fa fa-fw fa-home"></i>&nbsp;HOME</a>
+    </div>
+    <div class="outer">
+      <div class="scroll">
+      
+      
+      <marquee><p>lastest updates of the agriculture</p></marquee>
+      </div>
+      </div>
+    <br><br>
+    <div id="divbuttonprices">
+      <a href="#pricetoday"><button id="buttonprices">Click To See Lastest Prices</button></a>
+    </div>
+    <br><br><br>
+    <div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/slideshow1" style="width:100%" height="500px">
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="images/slideshow2" style="width:100%" height="500px">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/slideshow3" style="width:100%" height="500px">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/slideshow4" style="width:100%" height="500px">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/slideshow5.jpg" style="width:100%" height="500px">
+      </div>
+  
+      <!-- Add more slides as needed -->
+  
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    </div>
+  
+    <script src="home.js"></script>
+    
+    <br><br>
+      <div id="layout">
+        <h2 style="text-decoration: underline;">Whats New ?</h2>
+        <p font-size="25px">Want to sell your agriculture products Online?</p>
+        <p font-size="25px">Latest crops</p>
+        <p font-size="25px">Register your vehicle <a href="templates/tractor_form.html">click</a> </p>
+      </div>
+    
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="weather">
+      <h2 style="text-align: center">Weather Report</h2>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <center><iframe src="https://openweathermap.org/city/1269843" height="500px" width="70%"></iframe></center>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+      <div id="aboutus">
+        <br><br><br>
+        <div class="imageabout">
+          <img src="images/about.jpg" width="60%" height="600px">
+        </div>  
+
+        <div class="about">
+        <h1 style="color:brown"><u>About Us</u></h1>
+        <br>
+        <div style="text-align: left;">
+        <p style="font-size: 20px;">The purpose of this website is to develop the knowledge of farming in minds of young generation.
+           Most of our generations are doesn't aware of the agriculture, taking it as a problem this website helps 
+           as solution.
+           </p>
+           <p style="font-size: 20px;">This gathers all the latest information and technologies used in it.</p>
+           <p style="font-size: 20px;">
+           It helps in practicing the agriculture in easy way using the technology in farming.
+           Farming is a fundamental and timeless practice that plays a crucial role in sustaining human 
+           life and the global economy. It involves the cultivation of crops and the raising of animals 
+           for food, fiber, and other agricultural products. Farmers utilize a combination of knowledge, 
+           skill, and hard work to harness the power of the earth, sun, water, and air to produce a wide 
+           variety of crops, such as grains, fruits, vegetables, and livestock like cattle, poultry, and 
+           sheep. 
+           </p>
+           <p style="font-size: 20px;">Farming methods have evolved significantly over the centuries, with modern agriculture 
+           benefitting from technology, mechanization, and scientific advancements to increase productivity 
+           and efficiency. Despite these advancements, farming remains deeply rooted in tradition and a 
+           connection to the land, fostering a profound respect for nature and the environment. It is not 
+           only a means of sustenance but also a way of life that binds communities and sustains the world's 
+           growing population. Farming serves as a reminder of our dependence on the earth and the need for 
+           responsible and sustainable practices to ensure a prosperous and nourished future.
+           </p>
+        </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <br><br><br><br><br><br><br><br><br>
+      <div class="location">
+      <h1>User Location</h1>
+  <p id="location"></p>
+
+  <script>
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+      } else {
+        document.getElementById("location").innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+
+    function showPosition(position) {
+      const latitude = position.coords.latitude;
+      const longitude = position.coords.longitude;
+      document.getElementById("location").innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+    }
+
+    function showError(error) {
+      switch(error.code) {
+        case error.PERMISSION_DENIED:
+          document.getElementById("location").innerHTML = "User denied the request for geolocation.";
+          break;
+        case error.POSITION_UNAVAILABLE:
+          document.getElementById("location").innerHTML = "Location information is unavailable.";
+          break;
+        case error.TIMEOUT:
+          document.getElementById("location").innerHTML = "The request to get user location timed out.";
+          break;
+        case error.UNKNOWN_ERROR:
+          document.getElementById("location").innerHTML = "An unknown error occurred.";
+          break;
+      }
+    }
+
+    // Call the function to get the user's location
+    getLocation();
+  </script>
+      </div>
+<br><br><br><br><br><br><br>
+        <div id="pricetoday">
+          <h2><u>Latest Market Prices</u></h2>
+          <form>
+            <label for="state"><b>State:</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <select id="state" name="state" onchange="indianstates()" required>
+              <option value="--select--" selected>-- Select State --</option>
+              <option value="Andhra_pradesh">Andhra_Pradesh</option>
+              <option value="Arunachal_pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chattisgarh">Chattisgarh</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal_pradesh">Himachal Pradesh</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="karnataka">Karnataka</option>
+              <option value="kerala">Kerala</option>
+              <option value="Madhya_pradesh">Madhya Pradesh</option>
+              <option value="Maharastra">Maharastra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil_Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="Uttar_pradesh">Uttar Pradesh</option>
+              <option value="West_bengal">West Bengal</option>
+            </select>
+            <br><br>
+            <label for="district"><b>District :</b></label>
+            &nbsp;&nbsp; 
+            <select id="district" name="district" onchange="cropdetails()">
+              <option value="">-- Select District --</option>
+            </select>
+            <br><br>
+            <label for="item" style="text-align: center;"><b>Item :</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="item" name="item" onchange="populateitem()">
+              <option value="-- select --">-- Select Item --</option>
+              <option value="paddy">paddy</option> 
+              <option value="wheat">wheat</option>
+              <option value="jower">jower</option>
+              <option value="groundnut">groundnut</option>
+              <option value="cotton">cotton</option>
+            </select>
+            
+            <br><br>
+            <label for="price"><b>Price &nbsp;&nbsp;= </b></label>
+            &nbsp;&nbsp;&nbsp;
+            <select id="price" name="price">
+              <option value=""></option>
+            </select>
+          </form>
+        </div>
+        <br><br><br>
+        <div id="photoprices">
+          <img src="images/lastest price image.jpeg" alt="image of prices">
+        </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<br><br><br><br><br><br><br>
+    <div style="text-align: center; align-items: center;">
+    <div class="service_main">
+      <h1>Services provided: (Main)</h1>
+      <div class="service_block">
+        <i style="font-size:35px; color:white;" class="fa" class="service">&#xf00c;</i>&nbsp;Tractor rentals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+        <i style="font-size:35px; color:white;" class="fa" class="service">&#xf00c;</i>&nbsp;Harvester rentals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+        <i style="font-size:35px; color:white;" class="fa" class="service">&#xf00c;</i>&nbsp;Soil health check service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+        <i style="font-size:35px; color:white;" class="fa" class="service">&#xf00c;</i>&nbsp;New technologies in farming&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+        <i style="font-size:35px; color:white;" class="fa" class="service">&#xf00c;</i>&nbsp;Documentation about agriculture&nbsp;&nbsp;&nbsp;<br><br>
+      </div>
+    </div>
+    </div>
+    <br><br><br><br><br><br><br>
+
+    <br>
+
+
+
+<footer>
+  <div id="bottom-main">
+    <div id="google_element"></div>
+        <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+        <script>
+            function loadGoogleTranslate() {
+                new google.translate.TranslateElement("google_element");
+            }
+        </script>
+  <p>&copy; 2023 Easy Farming</p>
+  <p>Contact us:</p>
+  <p>Mail to:&nbsp;<a href="mailto:farmconnecthub@gmail.com">FarmConnectHub@gmail.com</a></p>
+  <p>Phone : 8712115473</p>
+  <div class="bottom">
+    <ul>
+        <li>
+          <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter icon"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+        <li>
+          <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+    </ul>      
+</div>
+</div>
+</footer>
+<script>
+  function indianstates() {
+          var stateSelect = document.getElementById('state');
+          var districtSelect = document.getElementById('district');
+          var itemSelect = document.getElementById('item');
+          var priceSelect = document.getElementById('price');
+          var selectedItem = itemSelect.value;
+          var selectedDistrict = districtSelect.value; 
+          var selectedState = stateSelect.value;
+    
+          // Clear existing options
+          districtSelect.innerHTML = '<option value="">-- Select District --</option>';
+    
+          // Add districts based on the selected state
+          if (selectedState === 'Telangana') {
+            addDistrict('Adilabad');
+            addDistrict('Kothagudem');
+            addDistrict('Hanumakonda');
+            addDistrict('Hyderabad');
+            addDistrict('Jagtial');
+            addDistrict('Jayashankar Bhoopalpally');
+            addDistrict('Jogulamba Gadwal');
+            addDistrict('Kamareddy');
+            addDistrict('Karimnagar');
+            addDistrict('Khammam');
+            addDistrict('Komaram bheem asifabad');
+            addDistrict('Mahabubabad');
+            addDistrict('Mahabubnagar');
+            addDistrict('Mancherial');
+            addDistrict('Medak');
+            addDistrict('Medchal - Malkajgiri');
+            addDistrict('Mulug');
+            addDistrict('Nagarkurnool');
+            addDistrict('Nalgonda');
+            addDistrict('Narayanpet');
+            addDistrict('Nirmal');
+            addDistrict('Nizamabad');
+            addDistrict('Peddapalli');
+            addDistrict('Rajanna sircilla');
+            addDistrict('Rangareddy');
+            addDistrict('Sangareddy');
+            addDistrict('Siddipet');
+            addDistrict('Suryapet');
+            addDistrict('Vikarabad');
+            addDistrict('Wanaparthy');
+            addDistrict('Warangal');
+            addDistrict('Yadadri bhuvanagiri');
+          } else if (selectedState === 'Andhra_pradesh') {
+            addDistrict('Amebedkar Konaseema');
+            addDistrict('East Godavari');
+            addDistrict('West Godavari');
+            addDistrict('Eluru');
+            addDistrict('Krishna');
+            addDistrict('NTR');
+            addDistrict('Guntur');
+            addDistrict('Palnadu');
+            addDistrict('Bapatla');
+            addDistrict('Prakasam');
+            addDistrict('Nellore');
+            addDistrict('Kurnool');
+            addDistrict('Nandyal');
+            addDistrict('Anantapuramu');
+            addDistrict('Sri Sathya Sai');
+            addDistrict('YSR');
+            addDistrict('Annamayya');
+            addDistrict('Tirupati');
+            addDistrict('Chittoor');
+            addDistrict('Vishakapatnam');
+            addDistrict('Anakapalli');
+            addDistrict('Srikakulam');
+            addDistrict('Vizianagaram');
+            addDistrict('Kakinada');
+            addDistrict('');
+          } else if (selectedState === 'Maharastra') {
+            addDistrict('Ahmednagar');
+            addDistrict('Akola');
+            addDistrict('Amravati');
+            addDistrict('Aurangabad');
+            addDistrict('Beed');
+            addDistrict('Bhandara');
+            addDistrict('Buldhana');
+            addDistrict('Chandrapur');
+            addDistrict('Dhule');
+            addDistrict('Gadchiroli');
+            addDistrict('Gondia');
+            addDistrict('Hingoli');
+            addDistrict('Jalgaon');
+            addDistrict('Jalna');
+            addDistrict('Kolhapur');
+            addDistrict('Latur');
+            addDistrict('Mumbai City');
+            addDistrict('Mumbai Suburban');
+            addDistrict('Nagpur');
+            addDistrict('Nanded');
+            addDistrict('Nandurbar');
+            addDistrict('Nashik');
+            addDistrict('Dharashiv (Osmanabad)');
+            addDistrict('Palghar');
+            addDistrict('Parbhani');
+            addDistrict('Pune');
+            addDistrict('Raigad');
+            addDistrict('Ratnagiri');
+            addDistrict('Sangli');
+            addDistrict('Satara');
+            addDistrict('Sindhudurg');
+            addDistrict('Solapur');
+            addDistrict('Thane');
+            addDistrict('Wardha');
+            addDistrict('Washim');
+            addDistrict('Yavatmal');
+          }
+          else if (selectedState === 'Arunachal_pradesh') {
+            addDistrict('Anjaw');
+            addDistrict('Itanagar');
+            addDistrict('Changlang');
+            addDistrict('Dibang Valley');
+            addDistrict('East Kameng');
+            addDistrict('East Siang');
+            addDistrict('Kamle');
+            addDistrict('Kra Daadi');
+            addDistrict('Kurung Kumey');
+            addDistrict('Lepa Rada');
+            addDistrict('Lohit');
+            addDistrict('Longding');
+            addDistrict('Lower Dibang');
+            addDistrict('Lower Siang');
+            addDistrict('Lower Subansiri');
+            addDistrict('Namsai');
+            addDistrict('Pakke Kessang');
+            addDistrict('Papum Pare');
+            addDistrict('Shi Yomi');
+            addDistrict('Siang');
+            addDistrict('Tawang');
+          }
+          else if (selectedState === 'Assam'){
+            addDistrict('Baksa');
+            addDistrict('Barpeta');
+            addDistrict('Bongaigaon');
+            addDistrict('Cachar');
+            addDistrict('Charaideo');
+            addDistrict('Chirang');
+            addDistrict('Darrang');
+            addDistrict('Dhemaji');
+            addDistrict('Dhubri');
+            addDistrict('Dibrugarh');
+            addDistrict('Dima Hassao');
+            addDistrict('Goalpara');
+            addDistrict('Golaghat');
+            addDistrict('Hailakandi');
+            addDistrict('Jorhat');
+            addDistrict('Kamrup Metropalitan');
+            addDistrict('Kamrup');
+            addDistrict('Karbi Anglong');
+            addDistrict('Karimganj');
+            addDistrict('Lakhimpur');
+            addDistrict('Majuli');
+            addDistrict('Morigaon');
+            addDistrict('Nagaon');
+            addDistrict('Nalbari');
+            addDistrict('Sivasagar');
+            addDistrict('Sonitpur');
+            addDistrict('South Salmara-Mankachar');
+            addDistrict('Tinsukia');
+            addDistrict('Udalguri');
+            addDistrict('West Karbi Anglong');
+          }
+          else if(selectedState === 'Bihar'){
+            addDistrict('Araria');
+            addDistrict('Arwal');
+            addDistrict('Aurangabad');
+            addDistrict('Banka');
+            addDistrict('Begusarai');
+            addDistrict('Bhagalpur');
+            addDistrict('Bhojpur');
+            addDistrict('Buxar');
+            addDistrict('Darbhanga');
+            addDistrict('East Champaran');
+            addDistrict('Gaya');
+            addDistrict('Gopalganj');
+            addDistrict('jamui');
+            addDistrict('Jehanabad');
+            addDistrict('Khagaria');
+            addDistrict('Kishanganj');
+            addDistrict('Kaimur');
+            addDistrict('Kaithar');
+            addDistrict('Lakhisarai');
+            addDistrict('Madhubani');
+            addDistrict('Munger');
+            addDistrict('Madhepura');
+            addDistrict('Muzaffarpur');
+            addDistrict('Nalanda');
+            addDistrict('Nawada');
+            addDistrict('Patna');
+            addDistrict('Purnia');
+            addDistrict('Rohtas');
+            addDistrict('Saharsa');
+            addDistrict('Samastipur');
+            addDistrict('Sheohar');
+            addDistrict('Sheikhpura');
+            addDistrict('Saran');
+            addDistrict('Sitamarthi');
+            addDistrict('Supaul');
+            addDistrict('Siwan');
+            addDistrict('Vaishali');
+            addDistrict('West Champaran');
+          }
+          else if(selectedState === 'Chattisgarh')
+          {
+            addDistrict('Raipur');
+            addDistrict('Bilaspur');
+            addDistrict('Sarangarh-Bilasgarh');
+            addDistrict('Bemetara');
+            addDistrict('Kanker');
+            addDistrict('Korba');
+            addDistrict('Bijapur');
+            addDistrict('Surajpur');
+            addDistrict('Gariabad');
+            addDistrict('Kabirdham');
+            addDistrict('Raigarh');
+            addDistrict('Sukma');
+            addDistrict('Kondagaon');
+            addDistrict('Baloda Bazar');
+            addDistrict('Durg');
+            addDistrict('Dhamtari');
+            addDistrict('Sakti');
+            addDistrict('Koriya');
+            addDistrict('Khairagarh-Chhuikhadan-Gandai');
+            addDistrict('Rajnandgaon');
+            addDistrict('Mungeli');
+            addDistrict('Dantewada');
+            addDistrict('Balod');
+            addDistrict('Balrampur');
+            addDistrict('Mahasamund');
+            addDistrict('Jashpur');
+            addDistrict('Gaurella-Pendra-Marwahi');
+            addDistrict('Janjgir-Champa');
+            addDistrict('Manendragarh-Chirmir-Bharatpur');
+            addDistrict('Bastar');
+            addDistrict('Narayanpur');
+            addDistrict('Surguja');
+            addDistrict('Mohla-Manpur-Chowki');
+          }
+          else if(selectedState === 'Goa')
+          {
+            addDistrict('Mapusa');
+            addDistrict('Bicholim');
+            addDistrict('Panaji');
+            addDistrict('Momugao');
+            addDistrict('Ponda');
+            addDistrict('Quepem');
+            addDistrict('Margao');
+            addDistrict('Dharbandora');
+          }
+          else if(selectedState === 'Gujarat')
+          {
+            addDistrict('Ahmedabad');
+            addDistrict('Anand');
+            addDistrict('Gandhinagar');
+            addDistrict('Bharuch');
+            addDistrict('Mahisagar');
+            addDistrict('Mehsana');
+            addDistrict('Banaskantha');
+            addDistrict('Dahod');
+            addDistrict('Dang');
+            addDistrict('Kheda');
+            addDistrict('Devbhoomi Dwarka');
+            addDistrict('Kutch');
+            addDistrict('Surat');
+            addDistrict('Vadodara');
+            addDistrict('Narmada');
+            addDistrict('Panchmahal');
+            addDistrict('Patan');
+            addDistrict('Valsad');
+            addDistrict('chhota Udaipur');
+            addDistrict('Aravalli');
+            addDistrict('Botad');
+          }
+          else if(selectedState === 'Haryana')
+          {
+            addDistrict('Faridabad');
+            addDistrict('Gurugram');
+            addDistrict('Panchkula');
+            addDistrict('Panipat');
+            addDistrict('Rewari');
+            addDistrict('Ambala');
+            addDistrict('Charkhi Dadri');
+            addDistrict('Hisar');
+            addDistrict('Jhajjar');
+            addDistrict('Jind');
+            addDistrict('Kaithal');
+            addDistrict('Karnal');
+            addDistrict('Kurukshetra');
+            addDistrict('Nuh');
+            addDistrict('Palwal');
+            addDistrict('Sirsa');
+            addDistrict('Fatehabad');
+            addDistrict('Rohtak');
+            
+          }
+          else if (selectedState === 'Himanchal_Pradesh') {
+            addDistrict('Bilaspur');    
+            addDistrict('Chamba');    
+            addDistrict('Hamirpur');
+            addDistrict('Kangra');
+            addDistrict('Kinnaur');
+            addDistrict('Kullu');
+            addDistrict('Lahaul and Spiti');
+            addDistrict('Mandi'); 
+            addDistrict('Shimla');
+            addDistrict('Sirmaur');
+            addDistrict('SolanSolan');
+            addDistrict('Una'); 
+          }
+          else if (selectedState === 'Madhya_pradesh') {
+            addDistrict('Bhopal');    
+            addDistrict('Raisen');    
+            addDistrict('Rajgarh');
+            addDistrict('Sehore');
+            addDistrict('Vidisha');
+            addDistrict('Morena');
+            addDistrict('Sheopur');
+            addDistrict('Bhind'); 
+            addDistrict('Gwalior');
+            addDistrict('Ashoknagar');
+            addDistrict('Shivpuri');
+            addDistrict('Ballia'); 
+            addDistrict('Datia'); 
+            addDistrict('Guna');
+            addDistrict('Alirajpur');
+            addDistrict('Barwani');
+            addDistrict('Burhanpur');    
+            addDistrict('Bijnor');
+            addDistrict('Bulandshahr');
+            addDistrict('Indore');
+            addDistrict('Dhar');
+            addDistrict('Jhabua');
+            addDistrict('Khandwa'); 
+            addDistrict('Khargone');
+            addDistrict('Balaghat');
+            addDistrict('Chhindwara');
+            addDistrict('Jabalpur'); 
+            addDistrict('Katni'); 
+            addDistrict('Mandla');
+            addDistrict('Narsinghpur');
+            addDistrict('Seoni'); 
+            addDistrict('Dindori');
+            addDistrict('Betul');
+            addDistrict('Harda');
+            addDistrict('Hapur'); 
+            addDistrict('Narmadapuram'); 
+            addDistrict('Rewa');
+            addDistrict('Satna');
+            addDistrict('Sidhi');    
+            addDistrict('Singrauli');    
+            addDistrict('Chhatarpur');
+            addDistrict('Damoh');
+            addDistrict('Panna');
+            addDistrict('Sagar');
+            addDistrict('Tikamgarh');
+            addDistrict('Niwari'); 
+            addDistrict('Anuppur');
+            addDistrict('Shahdol');
+            addDistrict('Umaria');
+            addDistrict('Agar Malwa'); 
+            addDistrict('Dewas'); 
+            addDistrict('Mandsaur');
+            addDistrict('Neemuch');
+            addDistrict('Ratlam');
+            addDistrict('Shajapur');    
+            addDistrict('Ujjain');
+          }
+          else if (selectedState === 'Kerala') {
+            addDistrict('Alappuzha');    
+            addDistrict('Ernakulam');    
+            addDistrict('Idukki');
+            addDistrict('Kannur');
+            addDistrict('Kasaragod');
+            addDistrict('Kollam');
+            addDistrict('Kottayam');
+            addDistrict('Kozhikode'); 
+            addDistrict('Malappuram');
+            addDistrict('Palakkad');
+            addDistrict('Pathanamthitta');
+            addDistrict('Thiruvananthapuram'); 
+            addDistrict('Thrissur'); 
+            addDistrict('Wayanad');
+          }
+          else if (selectedState === 'Jharkhand ') {
+            addDistrict('Bokaro');    
+            addDistrict('Chatra');    
+            addDistrict('Deoghar');
+            addDistrict('Dhanbad');
+            addDistrict('Dumka');
+            addDistrict('East Singhbhum');
+            addDistrict('Garhwa');
+            addDistrict('Giridih'); 
+            addDistrict('Godda');
+            addDistrict('Gumla');
+            addDistrict('Hazaribagh');
+            addDistrict('Jamtara'); 
+            addDistrict('Khunti'); 
+            addDistrict('Kodarma');
+            addDistrict('Latehar');
+            addDistrict('Lohardaga');
+            addDistrict('Pakur');    
+            addDistrict('Palamu');
+            addDistrict('Ramgarh');
+            addDistrict('Ranchi');
+            addDistrict('Sahibganj');
+            addDistrict('Saraikela Kharsawan');
+            addDistrict('Simdega'); 
+            addDistrict('West Singhbhum');
+          }
+          else if (selectedState === 'Karnataka') {
+            addDistrict('Bengaluru Urban');    
+            addDistrict('Belagavi');    
+            addDistrict('Bidar');
+            addDistrict('Chikkamagaluru');
+            addDistrict('Dharwad');
+            addDistrict('Haveri');
+            addDistrict('Mandya');
+            addDistrict('Shivamogga'); 
+            addDistrict('Vijayanagara');
+            addDistrict('Yadgiri');
+            addDistrict('Ramanagara');
+            addDistrict('Koppala'); 
+            addDistrict('Hassan'); 
+            addDistrict('Davanagere');
+            addDistrict('Chikkaballapura');
+            addDistrict('Ballary');
+            addDistrict('Bagalkote');    
+            addDistrict('Chamarajanagara');
+            addDistrict('Dakshina Kannada');
+            addDistrict('Kalaburagi');
+            addDistrict('Kolara');
+            addDistrict('Raichur');
+            addDistrict('Udupi'); 
+            addDistrict('Uttara Kannada');
+            addDistrict('Tumakuru');
+            addDistrict('Mysuru');
+            addDistrict('Kodagu'); 
+            addDistrict('Gadag'); 
+            addDistrict('Chitradurga');
+            addDistrict('Vijayapura');
+            addDistrict('Bengaluru_Rural');
+          }
+          else if (selectedState === 'Manipur') 
+          {
+            addDistrict('Bishnupur');    
+            addDistrict('Churachandpur');    
+            addDistrict('Jiribam');
+            addDistrict('Imphal East');
+            addDistrict('Kamjong');
+            addDistrict('Senapati');
+            addDistrict('Imphal West');
+            addDistrict('Tengnoupal'); 
+            addDistrict('Ukhrul');
+            addDistrict('Thoubal');
+            addDistrict('Noney');
+            addDistrict('Pherzawl'); 
+            addDistrict('Chandel'); 
+            addDistrict('Kakching');
+            addDistrict('Tamenglong ');
+            addDistrict('Kangpokpi');
+          }
+          else if (selectedState === 'Meghalaya') {
+            addDistrict('North Garo Hills');    
+            addDistrict('East Garo Hills');    
+            addDistrict('South Garo Hills');
+            addDistrict('West Garo Hills');
+            addDistrict('South West Garo Hills');
+            addDistrict('West Jaintia Hills');
+            addDistrict('East Jaintia Hills');
+            addDistrict('East Khasi Hills'); 
+            addDistrict('West Khasi Hills');
+            addDistrict('South West Khasi Hills');
+            addDistrict('Eastern West Khasi Hills');
+            addDistrict('Ri-Bhoi'); 
+          }
+          else if (selectedState === 'Mizoram') {
+            addDistrict('Aizawl');    
+            addDistrict('Champhai');    
+            addDistrict('Hnahthial');
+            addDistrict('Khawzawl');
+            addDistrict('Kolasib');
+            addDistrict('Lawngtlai');
+            addDistrict('Lunglei');
+            addDistrict('Mamit'); 
+            addDistrict('Saiha');
+            addDistrict('Saitual');
+            addDistrict('Serchhip'); 
+          }
+          else if (selectedState === 'Nagaland') 
+          {
+            addDistrict('Chümoukedima');    
+            addDistrict('Dimapur');    
+            addDistrict('Kiphire');
+            addDistrict('Kohima');
+            addDistrict('Longleng');
+            addDistrict('Mokokchung');
+            addDistrict('Mon');
+            addDistrict('Niuland'); 
+            addDistrict('Noklak');
+            addDistrict('Peren');
+            addDistrict('Phek');
+            addDistrict('Shamator'); 
+            addDistrict('Tseminyü'); 
+            addDistrict('Tuensang');
+            addDistrict('Wokha');
+            addDistrict('Zünheboto');
+          }
+          else if (selectedState === 'Odisha') {
+            addDistrict('Angul');    
+            addDistrict('Boudh');    
+            addDistrict('Balangir');
+            addDistrict('Bargarh');
+            addDistrict('Balasore');
+            addDistrict('Bhadrak');
+            addDistrict('Cuttack');
+            addDistrict('Debagarh'); 
+            addDistrict('Dhenkanal');
+            addDistrict('Ganjam');
+            addDistrict('Gajapati');
+            addDistrict('Jharsuguda'); 
+            addDistrict('Jajpur'); 
+            addDistrict('Jagatsinghapur');
+            addDistrict('Khordha');
+            addDistrict('Kendujhar');
+            addDistrict('Kalahandi');    
+            addDistrict('Kandhamal');
+            addDistrict('Koraput');
+            addDistrict('Kendrapara');
+            addDistrict('Malkangiri');
+            addDistrict('Mayurbhanj');
+            addDistrict('Nabarangpur'); 
+            addDistrict('Nuapada');
+            addDistrict('Nayagarh');
+            addDistrict('Puri');
+            addDistrict('Rayagada'); 
+            addDistrict('Sambalpur'); 
+            addDistrict('Subarnapur');
+            addDistrict('Sundargarh');
+          }
+          else if (selectedState === 'Punjab') {
+            addDistrict('Amritsar');    
+            addDistrict('Barnala');    
+            addDistrict('Bathinda');
+            addDistrict('Faridkot');
+            addDistrict('Fatehgarh Sahib');
+            addDistrict('Firozpur');
+            addDistrict('Fazilka');
+            addDistrict('Gurdaspur'); 
+            addDistrict('Hoshiarpur');
+            addDistrict('Jalandhar');
+            addDistrict('Kapurthala');
+            addDistrict('Ludhiana'); 
+            addDistrict('Malerkotla'); 
+            addDistrict('Mansa');
+            addDistrict('Moga');
+            addDistrict('Sri Muktsar Sahib');
+            addDistrict('Pathankot');    
+            addDistrict('Patiala');
+            addDistrict('Rupnagar');
+            addDistrict('Sahibzada Ajit Singh Nagar');
+            addDistrict('Sangrur');
+            addDistrict('Shahid Bhagat Singh Nagar');
+            addDistrict('Tarn Taran'); 
+          }
+          else if (selectedState === 'Rajasthan ') {
+            addDistrict('Ajmer');    
+            addDistrict('Alwar');    
+            addDistrict('Banswara');
+            addDistrict('Baran');
+            addDistrict('Barmer');
+            addDistrict('Bharatpur');
+            addDistrict('Bhilwara');
+            addDistrict('Bikaner'); 
+            addDistrict('Bundi');
+            addDistrict('Chittorgarh');
+            addDistrict('Churu');
+            addDistrict('Dausa'); 
+            addDistrict('Dholpur'); 
+            addDistrict('Dungarpur');
+            addDistrict('Hanumangarh');
+            addDistrict('Jaipur');
+            addDistrict('Jaisalmer');    
+            addDistrict('Jalore');
+            addDistrict('Jhalawar');
+            addDistrict('Jhunjhunu');
+            addDistrict('Jodhpur');
+            addDistrict('Karauli');
+            addDistrict('Kota'); 
+            addDistrict('Nagaur');
+            addDistrict('Pali');
+            addDistrict('Pratapgarh');
+            addDistrict('Rajsamand'); 
+            addDistrict('Sawai Madhopur'); 
+            addDistrict('Sikar');
+            addDistrict('Sirohi');
+            addDistrict('Sri Ganganagar');
+            addDistrict('Tonk');
+            addDistrict('Udaipur'); 
+          }
+          else if (selectedState === 'Sikkim') {
+            addDistrict('Gangtok');    
+            addDistrict('Mangan');    
+            addDistrict('Namchi');
+            addDistrict('Gyalshing Gyalshing ');
+            addDistrict('Pakyong');
+            addDistrict('Soreng');
+          }
+          else if (selectedState === 'Tamil_Nadu') {
+            addDistrict('Ariyalur');    
+            addDistrict('Chengalpattu');    
+            addDistrict('Chennai');
+            addDistrict('Coimbatore');
+            addDistrict('Cuddalore');
+            addDistrict('Dharmapuri');
+            addDistrict('Dindigul');
+            addDistrict('Erode'); 
+            addDistrict('Kallakurichi');
+            addDistrict('Kanchipuram');
+            addDistrict('Kanniyakumari');
+            addDistrict('Karur'); 
+            addDistrict('Krishnagiri'); 
+            addDistrict('Madurai');
+            addDistrict('Mayiladuthurai');
+            addDistrict('Nagapattinam');
+            addDistrict('Namakkal');    
+            addDistrict('Nilgiris');
+            addDistrict('Perambalur');
+            addDistrict('Pudukkottai');
+            addDistrict('Ramanathapuram');
+            addDistrict('Ranipet');
+            addDistrict('Salem'); 
+            addDistrict('Sivagangai');
+            addDistrict('Tenkasi');
+            addDistrict('Thanjavur');
+            addDistrict('Theni'); 
+            addDistrict('Thoothukudi'); 
+            addDistrict('Tiruchirappalli');
+            addDistrict('Tirunelveli');
+            addDistrict('Tirupathur'); 
+            addDistrict('Tiruppur');
+            addDistrict('Tiruvallur');
+            addDistrict('Tiruvannamalai');
+            addDistrict('Tiruvarur'); 
+            addDistrict('Vellore'); 
+            addDistrict('Viluppuram');
+            addDistrict('Virudhunagar');
+          }
+          else if (selectedState === 'Uttar_pradesh') {
+            addDistrict('Agra');    
+            addDistrict('Aligarh');    
+            addDistrict('Allahabad');
+            addDistrict('Ambedkar Nagar');
+            addDistrict('Amethi');
+            addDistrict('Amroha');
+            addDistrict('Auraiya');
+            addDistrict('Azamgarh'); 
+            addDistrict('Badaun');
+            addDistrict('Bagpat');
+            addDistrict('Bahraich');
+            addDistrict('Ballia'); 
+            addDistrict('Balrampur'); 
+            addDistrict('Banda');
+            addDistrict('Barabanki');
+            addDistrict('Bareilly');
+            addDistrict('Basti');    
+            addDistrict('Bijnor');
+            addDistrict('Bulandshahr');
+            addDistrict('Chandauli');
+            addDistrict('Chitrakoot');
+            addDistrict('Deoria');
+            addDistrict('Etah'); 
+            addDistrict('Etawah');
+            addDistrict('Faizabad');
+            addDistrict('Farrukhabad');
+            addDistrict('Fatehpur'); 
+            addDistrict('Firozabad'); 
+            addDistrict('Gautam Buddha Nagar');
+            addDistrict('Ghaziabad');
+            addDistrict('Ghazipur'); 
+            addDistrict('Gonda');
+            addDistrict('Gorakhpur');
+            addDistrict('Hamirpur');
+            addDistrict('Hapur'); 
+            addDistrict('Hardoi'); 
+            addDistrict('Hathras');
+            addDistrict('Jalaun');
+            addDistrict('Jaunpur');    
+            addDistrict('Jhansi');    
+            addDistrict('Kannauj');
+            addDistrict('Kanpur Dehat');
+            addDistrict('Kanpur Nagar');
+            addDistrict('Kasganj');
+            addDistrict('Kaushambi');
+            addDistrict('Kushinagar'); 
+            addDistrict('Lakhimpur Kheri');
+            addDistrict('Lalitpur');
+            addDistrict('Lucknow');
+            addDistrict('Maharajganj'); 
+            addDistrict('Mahoba'); 
+            addDistrict('Mainpuri');
+            addDistrict('Mathura');
+            addDistrict('Mau');
+            addDistrict('Meerut');    
+            addDistrict('Mirzapur');
+            addDistrict('Moradabad');
+            addDistrict('Muzaffarnagar');
+            addDistrict('Pilibhit');
+            addDistrict('Pratapgarh');
+            addDistrict('Rae Bareli'); 
+            addDistrict('Rampur');
+            addDistrict('Saharanpur');
+            addDistrict('Sant Kabir Nagar');
+            addDistrict('Sant Ravidas Nagar'); 
+            addDistrict('Sambhal'); 
+            addDistrict('Shahjahanpur');
+            addDistrict('Shamli');
+            addDistrict('Shravasti'); 
+            addDistrict('Siddharthnagar');
+            addDistrict('Sitapur');
+            addDistrict('Sonbhadra');
+            addDistrict('Sultanpur'); 
+            addDistrict('Unnao'); 
+            addDistrict('Varanasi(Kashi)');
+          }
+          else if(selectedState === 'Tripura')
+          {
+            addDistrict('Dhalai');
+            addDistrict('Gomati');
+            addDistrict('Khowai');
+            addDistrict('North Tripura');
+            addDistrict('Sepahijala');
+            addDistrict('South Tripura');
+            addDistrict('Unakoti');
+            addDistrict('West Tripura');
+          }
+          else if(selectedState === 'Uttarakhand')
+          {
+            addDistrict('Dehradun');
+            addDistrict('Haridwar');
+            addDistrict('Chamoli');
+            addDistrict('Rudraprayag');
+            addDistrict('Tehri Garhwal');
+            addDistrict('Uttarkashi');
+            addDistrict('Pauri Garhwal');
+            addDistrict('Almora');
+            addDistrict('Nainital');
+            addDistrict('Pithoragarh');
+            addDistrict('Udham Singh Nagar');
+            addDistrict('Bageshwar');
+            addDistrict('Champawat');
+          }
+          else if(selectedState === 'West_bengal')
+          {
+            addDistrict('Alipurduar');
+            addDistrict('Bankura');
+            addDistrict('Birbhum');
+            addDistrict('Cooch Behar');
+            addDistrict('Dakshin Dinajpur');
+            addDistrict('Darjeeling');
+            addDistrict('Hooghly');
+            addDistrict('Howrah');
+            addDistrict('Jalpaiguri');
+            addDistrict('Jhargram');
+            addDistrict('Kalimpong');
+            addDistrict('Kolkata');
+            addDistrict('Malda');
+            addDistrict('Murshidabad');
+            addDistrict('Naida');
+            addDistrict('North 24 Parganas');
+            addDistrict('Paschim Medinipur');
+            addDistrict('Paschim Burdwan');
+            addDistrict('Purba Burdwan');
+            addDistrict('Purba Medinipur');
+            addDistrict('Purulia');
+            addDistrict('South 24 Parganas');
+            addDistrict('Uttar Dinajpur');
+          }
+        }
+    
+        function addDistrict(districtName) {
+          var districtSelect = document.getElementById('district');
+          var option = document.createElement('option');
+          option.value = districtName;
+          option.text = districtName;
+          districtSelect.add(option);
+        }
+
+
+
+
+function populateitem() {
+  var districtSelect = document.getElementById('district')
+  var itemSelect = document.getElementById('item');
+  var priceSelect = document.getElementById('price');
+  var selectedItem = itemSelect.value;
+  var selectedDistrict = districtSelect.value;
+
+/*code start for adilabad latest prices*/
+  if (selectedItem === 'paddy' & selectedDistrict === 'Adilabad') {
+    priceSelect.innerHTML = '<option value=""> 2022/- </option> '
+  } else if (selectedItem === 'jower' & selectedDistrict === 'Adilabad') {
+    priceSelect.innerHTML = '<option value=""> 2820/- </option> '
+    addPrice('2820/-');
+  } else if (selectedItem === 'wheat' & selectedDistrict === 'Adilabad') {
+    priceSelect.innerHTML = '<option value=""> 1959/- </option> '
+  } else if (selectedItem === 'groundnut' & selectedDistrict === 'Adilabad') {
+    priceSelect.innerHTML = '<option value=""> 7200/- </option> '
+  } else if (selectedItem === 'cotton' & selectedDistrict === 'Adilabad') {
+    priceSelect.innerHTML = '<option value=""> 6635/- </option> '
+  }/*code ended for Adilabad*/
+  /*code start for Kothagudem*/
+    else if (selectedItem === 'paddy' & selectedDistrict === 'Kothagudem') {
+    priceSelect.innerHTML = '<option value=""> 1970/- </option> '
+  } else if(selectedItem === 'jower' & selectedDistrict === 'Kothagudem'){
+    priceSelect.innerHTML = '<option value=""> 1534/- </option> '
+  } else if(selectedItem === 'wheat' & selectedDistrict === 'Kothagudem'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  } else if(selectedItem === 'groundnut' & selectedDistrict === 'Kothagudem'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  } else if(selectedItem === 'cotton' & selectedDistrict === 'Kothagudem'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }
+  /*code ended for kothagudem latest prices*/
+  /*code start for Hanumakonda*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Hanumakonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Hanumakonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Hanumakonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Hanumakonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Hanumakonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Hanumakonda*/
+  /*code start for Hyderabad*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Hyderabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Hyderabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Hyderabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Hyderabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Hyderabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Hyderabad*/
+  /*code started for Jagtial*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Jagtial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Jagtial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Jagtial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Jagtial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Jagtial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Jagtial*/
+  /*code start for Jayashankar Bhoopalpally*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Jayashankar Bhoopalpally'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Jayashankar Bhoopalpally'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Jayashankar Bhoopalpally'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Jayashankar Bhoopalpally'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Jayashankar Bhoopalpally'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Jayashankar Bhoopalpally*/
+  /*code started for Jogulamba*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Jogulamba Gadwal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Jogulamba Gadwal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Jogulamba Gadwal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Jogulamba Gadwal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Jogulamba Gadwal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Jogulamba*/
+  /*code started for Kamareddy*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Kamareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Kamareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Kamareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Kamareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Kamareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Kamareddy*/
+  /*code start for Karimnagar*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Karimnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Karimnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Karimnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Karimnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Karimnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Karimnagar*/
+  /*code start for Khammam*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Khammam'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Khammam'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Khammam'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Khammam'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Khammam'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Khammam*/
+  /*code start for Komaram bheem asifabad*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Komaram bheem asifabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Komaram bheem asifabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Komaram bheem asifabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Komaram bheem asifabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Komaram bheem asifabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }
+  /*code ended for Komaram bheem asifabad*/
+  /*code start for Mahabubabad*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Mahabubabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Mahabubabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Mahabubabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Mahabubabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Mahabubabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Mahabubabad*/
+  /*code start for Mahabubnagar*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Mahabubnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Mahabubnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Mahabubnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Mahabubnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Mahabubnagar'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Mahabubnagar*/
+  /*code start for Mancherial*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Mancherial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Mancherial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Mancherial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Mancherial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Mancherial'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Mancherial*/
+  /*code start for Medak*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Medak'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Medak'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Medak'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Medak'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Medak'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Medak*/
+  /*code start for Medchal - Malkajgiri*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Medchal - Malkajgiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Medchal - Malkajgiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Medchal - Malkajgiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Medchal - Malkajgiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Medchal - Malkajgiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Medchal - Malkajgiri */
+  /*code start for Mulug*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Mulug'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Mulug'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Mulug'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Mulug'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Mulug'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Mulug*/
+  /*code start for Nagarkurnool*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Nagarkurnool'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Nagarkurnool'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Nagarkurnool'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Nagarkurnool'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Nagarkurnool'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Nagarkurnool*/
+  /*code start for Nalgonda*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Nalgonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Nalgonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Nalgonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Nalgonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Nalgonda'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Nalgonda*/
+  /*code start for Narayanpet*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Narayanpet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Narayanpet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Narayanpet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Narayanpet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Narayanpet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Narayanpet*/
+  /*code start for Nirmal*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Nirmal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Nirmal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Nirmal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Nirmal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Nirmal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Nirmal*/
+  /*code start for Nizamabad*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Nizamabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Nizamabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Nizamabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Nizamabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Nizamabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Nizamabad*/
+  /*code start for Peddapalli*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Peddapalli'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Peddapalli'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Peddapalli'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Peddapalli'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Peddapalli'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Peddapalli*/
+  /*code start for Rajanna sircilla*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Rajanna sircilla'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Rajanna sircilla'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Rajanna sircilla'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Rajanna sircilla'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Rajanna sircilla'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Rajanna sircilla*/
+  /*code start for Rangareddy*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Rangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Rangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Rangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Rangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Rangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Rangareddy*/
+  /*code start for Sangareddy*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Sangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Sangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Sangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Sangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Sangareddy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Sangareddy*/
+  /*code start for Siddipet*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Siddipet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Siddipet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Siddipet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Siddipet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Siddipet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Siddipet*/
+  /*code start for Suryapet*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Suryapet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Suryapet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Suryapet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Suryapet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Suryapet'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Suryapet*/
+  /*code start for Vikarabad*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Vikarabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Vikarabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Vikarabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Vikarabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Vikarabad'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Vikarabad*/
+  /*code start for Wanaparthy*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Wanaparthy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Wanaparthy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Wanaparthy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Wanaparthy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Wanaparthy'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Wanaparthy*/
+  /*code start for Warangal*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Warangal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'wheat' & selectedDistrict === 'Warangal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'jower' & selectedDistrict === 'Warangal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'groundnut' & selectedDistrict === 'Warangal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'cotton' & selectedDistrict === 'Warangal'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }/*code ended for Warangal*/
+  /*code start for Yadadri bhuvanagiri*/
+  else if (selectedItem === 'paddy' & selectedDistrict === 'Yadadri bhuvanagiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'paddy' & selectedDistrict === 'Yadadri bhuvanagiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'paddy' & selectedDistrict === 'Yadadri bhuvanagiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'paddy' & selectedDistrict === 'Yadadri bhuvanagiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else if (selectedItem === 'paddy' & selectedDistrict === 'Yadadri bhuvanagiri'){
+    priceSelect.innerHTML = '<option value=""> /- </option> '
+  }else{
+    priceSelect.innerHTML = '<option value=""> select </option> '
+  }
+  /*code ended for Yadadri bhuvanagiri*/
+  /*code ended for adilabad latest prices*/
+  
+}
+
+
+function addPrice(priceName) {
+  var priceSelect = document.getElementById('price');
+  var option = document.createElement('option');
+  option.value = priceName;
+  option.text = priceName;
+  priceSelect.add(option);
+}
+
+    // Disable forward and backward navigation
+    history.pushState(null, null, document.URL);
+    window.addEventListener('popstate', function () {
+      history.pushState(null, null, document.URL);
+    });
+</script>
+</body>
+</html>
